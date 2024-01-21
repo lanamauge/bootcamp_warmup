@@ -1,6 +1,6 @@
 .search-container {
   position: relative;
-  width: 300px;
+  width: 80%;
 }
 
 .search-input {
@@ -15,4 +15,14 @@
   position: absolute;
   left: 10px;
   top: 10px;
+}
+
+#mobile_size_setter {
+  /* Width of iPhone 12 Pro screen */
+  width: 1170px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
 }
