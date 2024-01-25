@@ -79,3 +79,13 @@ body {
 .element-description {
   font-size: large;
 }
+
+.footer-row-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-row-list p {
+  width: 50%;
+  font-size: 40px;
+}
