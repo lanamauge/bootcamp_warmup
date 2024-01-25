@@ -122,3 +122,16 @@ hr {
   font-weight: 40;
   margin: 50px 0 0 50px;
 }
+
+.getaways-list {
+  display: flex; /* Makes the list horizontal */
+  overflow-x: auto; /* Makes the list scrollable */
+  white-space: nowrap; /* Prevents the items from wrapping onto the next line */
+}
+
+.getaways-list p {
+  margin: 10px 50px 50px 10px;
+  font-size: 31px;
+  font-weight: normal;
+  color: #616161;
+}
