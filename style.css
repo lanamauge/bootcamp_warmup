@@ -94,7 +94,7 @@ body {
 
 /* Images and text beneath*/
 .element-description {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /*footer row list*/
@@ -107,6 +107,7 @@ body {
 .footer-row-list p {
   width: 50%;
   font-size: 35px;
+ 
   
 }
 
@@ -123,6 +124,10 @@ hr {
   margin: 50px 0 0 50px;
 }
 
+.inspiration-title p {
+  font-size: 50px; /* Adjust this value to change the size of the text */
+}
+
 .getaways-list {
   display: flex; /* Makes the list horizontal */
   overflow-x: auto; /* Makes the list scrollable */
@@ -134,4 +139,18 @@ hr {
   font-size: 31px;
   font-weight: normal;
   color: #616161;
+}
+
+.rounded-button {
+  background-color: black; /* Makes the button black */
+  color: white; /* Makes the text white */
+  border: none; /* Removes the default button border */
+  padding: 30px 40px; /* Adds some padding */
+  text-align: center; /* Centers the text */
+  text-decoration: none; /* Removes the default underline */
+  display: block; /* Makes the button a block element */
+  margin: auto; /* Centers the button */
+  font-size: 34px;
+  border-radius: 12px; /* Makes the button rounded */
+  cursor: pointer; /* Changes the cursor when you hover over the button */
 }
