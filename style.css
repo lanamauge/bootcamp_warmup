@@ -64,6 +64,8 @@ body {
   display: flex;
   justify-content: space-between;
   overflow-x: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .image-item {
@@ -146,6 +148,8 @@ hr {
   /* Makes the list horizontal */
   overflow-x: auto;
   /* Makes the list scrollable */
+  margin-left: 50px;
+  margin-right: 50px;
   white-space: nowrap;
   /* Prevents the items from wrapping onto the next line */
 }
@@ -200,4 +204,9 @@ hr {
 font-size: 48px;
 text-align: center;
 font-weight: normal;
+}
+
+.left-aligned-footer p{
+  margin-left: 50px;
+  margin-right: 50px;
 }
