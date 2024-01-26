@@ -192,3 +192,12 @@ hr {
     -webkit-text-stroke: 2px white;
     /* Creates the white outline */
   }
+  border-radius: 12px; /* Makes the button rounded */
+  cursor: pointer; /* Changes the cursor when you hover over the button */
+}
+
+.continue-exploring p {
+font-size: 48px;
+text-align: center;
+font-weight: normal;
+}
