@@ -1,23 +1,46 @@
 .search-container {
   position: relative;
   width: 80%;
-}
-
-.search-input {
-  width: 100%;
   padding: 10px 20px 10px 40px;
   /* The left padding is larger to make space for the icon */
   border: 1px solid #ccc;
-  border-radius: 20px;
+  border-radius: 60px;
   /* This makes the input field rounded */
   font-size: 16px;
+  display: flex;
+  height: 100px;
+  box-shadow: 0 3px 10px rgba(0 0 0/0.1);
+  align-items: center;
 }
 
-.fas.fa-search {
-  position: absolute;
-  left: 10px;
-  top: 10px;
+.search-input {
+  height: 30px;
+  border: 0px;
+  width: 80%;
+  font-size: 30px;
 }
+
+.search-input::placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+#add-guests {
+  font-size: 25px;
+  margin-top: 7px;
+}
+
+#form-text {
+  margin-left: 30px;
+}
+
+.search-form {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+
 
 
 .individual-element img {
@@ -29,9 +52,6 @@
   padding: 5%;
 }
 
-.search-input {
-  height: 60px;
-}
 
 body {
   font-family: circular, sans-serif;
