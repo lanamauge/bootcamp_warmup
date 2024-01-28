@@ -128,11 +128,27 @@ body {
 }
 
 .bottom-rectangle {
+  padding: 40px 0 10px 0;
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 150px;
+  /* height: 150px; */
   background-color: #ffff;
+  display: flex;
+  justify-content: center;
+}
+
+
+.bottom-rectangle div {
+  margin: 0 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-rectangle p {
+  font-size: 30px;
+  font-weight: 500;
 }
 
 
@@ -151,8 +167,14 @@ body {
 .footer-row-list p {
   width: 50%;
   font-size: 35px;
+}
 
+.footer {
+  background-color: #f0f0f0;
+}
 
+#explore-button {
+  color: red;
 }
 
 hr {
